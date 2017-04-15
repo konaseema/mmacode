@@ -1,0 +1,1 @@
+Total[Select[NestWhileList[{{0,1},{1,1}}.# &, {0, 1}, #[[2]]<4000000&][[All,1]],EvenQ]]

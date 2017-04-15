@@ -1,0 +1,1 @@
+Max[Select[FactorInteger[600851475143][[All,1]],PrimeQ]]
