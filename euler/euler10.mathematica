@@ -1,1 +1,1 @@
-Total[Select[Range[2000000],PrimeQ]]
+Total[Select[Range[1999999],PrimeQ]]
