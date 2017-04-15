@@ -1,0 +1,10 @@
+times1=Table[RepeatedTiming[Apply[Times,Map[1+2^#&,Range[0,n,2]]]][[1]],{n,4,128,2}];
+times2=Table[RepeatedTiming[Product[(2^i)+1,{i,0,n,2}];][[1]],{n,4,128,2}];
+times3=Table[RepeatedTiming[Fold[Times,1,Map[1+2^#&,Range[0,10,2]]];][[1]],{n,4,128,2}];
+values1=
+Transpose[{Range[4,128,2],times1}];
+values2=
+Transpose[{Range[4,128,2],times2}];
+values3=
+Transpose[{Range[4,128,2],times3}];
+ListPlot[{values1,values2,values3},PlotLegends->Automatic]
