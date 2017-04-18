@@ -1,6 +1,6 @@
 # Mathematica Code and Project Euler Solutions
 
-* Project Euler solutions are located in the folder [euler] (https://github.com/konaseema/mmacode/tree/master/euler)
+* Project Euler solutions are located in the folder [euler](https://github.com/konaseema/mmacode/tree/master/euler)
 * This folder contains miscellaneous mathematica code written for various purposes
 * Some of these files may or may not work with your version of Mathematica
 * I take no responsibility for the correctness or any liability of any code posted in this repository
