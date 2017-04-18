@@ -1,2 +1,2 @@
-(*Note this takes a little fine-tuning to find the right power of 2 to avoid overflow*)
-Select[Range[2^17],PrimeQ][[10001]]
+(*Use built-in function instead of generating large array and doing pattern matching)
+Prime[10001]
