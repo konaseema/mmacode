@@ -1,0 +1,1 @@
+Length[DeleteDuplicates[Flatten[Table[Power[i,j],{i,2,100},{j,2,100}]]]]
